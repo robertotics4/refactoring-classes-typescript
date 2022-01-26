@@ -24,7 +24,12 @@
     "rules": {
       "import/prefer-default-export": "off",
       "react-hooks/rules-of-hooks": "error",
+      "react/prefer-stateless-function": "warn",
       "react-hooks/exhaustive-deps": "warn",
+      "react/jsx-props-no-spreading": "warn",
+      "react/no-did-update-set-state": "warn",
+      "react/require-default-props": "warn",
+      "@typescript-eslint/no-empty-interface": "warn",
       "react/jsx-filename-extension": [
         1,
         {
